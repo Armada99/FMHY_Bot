@@ -1,25 +1,22 @@
 {
-
-  "name": "FMHY Bot",
-
-  "description": "N/A",
-
-  "version": "0.15.1",
-
+  "name": "fmhybot",
+  "version": "1.0.0",
+  "description": "",
   "main": "bot.js",
-
   "scripts": {
-
-    "start": "node bot.js"
-
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armada99/FMHY_Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Armada99/FMHY_Bot/issues"
+  },
+  "homepage": "https://github.com/Armada99/FMHY_Bot#readme",
   "dependencies": {
-
-    "discord.js": "12.2.0",
-
-    "request": "2.81.0"
-
+    "discord.js": "^12.2.0"
   }
-
 }
