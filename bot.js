@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const keepAlive = require("./server")
 const prefix = `!`;
 
 
@@ -76,13 +77,27 @@ switch(cmd){
 
 
 });
-
+keepAlive()
 client.login(process.env.BOT_TOKEN);
 
 var x="with your life";
 var stream = new Discord.MessageEmbed()
     .setColor(`#00FFFF`)
-    .setDescription()
+    .setTitle(`Streaming Sites`)
+    .setURL(`https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25B7_dedicated_hosts`)
+    .setDescription(`[Streaming CSE](https://cse.google.com/cse?cx=006516753008110874046:cfdhwy9o57g#gsc.tab=0) / [2](https://cse.google.com/cse?cx=006516753008110874046:o0mf6t-ugea#gsc.tab=0) / [3](https://cse.google.com/cse?cx=98916addbaef8b4b6) / [4](https://cse.google.com/cse?cx=0199ade0b25835f2e)
+[MoviesforDiscord](https://discord.com/invite/XBGm36RWEs) / [Site](https://movies4discord.xyz/)
+[LookMovie](https://lookmovie.io/)
+[WebOas.is](https://weboas.is/stream/)
+[Soap2day](https://soap2day.to/)
+[HDBest](http://hdbest.net/)
+[M4uFree](https://ww1.m4ufree.com/)
+[HiMovies.to](https://www3.himovies.to/)
+[Fmovies](https://fmovies.name/)
+[Primewire.li](https://www.primewire.li/)
+[Video Search Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_video_search_sites) / [CSE](https://cse.google.com/cse?cx=006516753008110874046:6v9mqdaai6q#gsc.tab=0)
+[Find Rare Movies](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/find-rare-movies)`)
+  .setThumbnail(`https://i.imgur.com/qJAkeWa.gif`);
 var streamtv = new Discord.MessageEmbed()
   .setColor(`#00FFFF`)
   .setDescription()
@@ -156,7 +171,10 @@ var activatewindows = new Discord.MessageEmbed()
     .setDescription()
 
 var commands = new Discord.MessageEmbed()
-    .setDescription(`!wiki\n!ask\n!hello\n!tech\n!eyebleach\n\n**WIP**\n\n!stream
+    .setDescription(`!wiki\n!ask\n!hello\n!tech\n!eyebleach\n!stream
+
+**WIP**
+
 !stream-tv
 !stream-anime
 !android-stream
